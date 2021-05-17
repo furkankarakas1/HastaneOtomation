@@ -46,6 +46,7 @@ public class VardiyaSayfasi extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        list_vardiya.setBackground(java.awt.Color.cyan);
         list_vardiya.setText("Vardiyaları listele");
         list_vardiya.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -53,6 +54,7 @@ public class VardiyaSayfasi extends javax.swing.JFrame {
             }
         });
 
+        vardiyaEkle.setBackground(java.awt.Color.cyan);
         vardiyaEkle.setText("Vardiya Ekle");
         vardiyaEkle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -70,6 +72,7 @@ public class VardiyaSayfasi extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tbl_vardiya);
 
+        jButton1.setBackground(java.awt.Color.cyan);
         jButton1.setText("Guncelle");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,6 +80,7 @@ public class VardiyaSayfasi extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(java.awt.Color.cyan);
         jButton2.setText("Sil");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -46,6 +46,7 @@ public class DoktorlarSayfasi extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        DoktorGoruntule.setBackground(java.awt.Color.cyan);
         DoktorGoruntule.setText("Doktorları görüntüle");
         DoktorGoruntule.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -53,7 +54,7 @@ public class DoktorlarSayfasi extends javax.swing.JFrame {
             }
         });
 
-        btn_Ekle3.setBackground(java.awt.Color.black);
+        btn_Ekle3.setBackground(java.awt.Color.cyan);
         btn_Ekle3.setText("Doktor Ekle");
         btn_Ekle3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -71,6 +72,7 @@ public class DoktorlarSayfasi extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tbl_doktorlar);
 
+        btn_sil.setBackground(java.awt.Color.cyan);
         btn_sil.setText("Sil");
         btn_sil.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,6 +80,7 @@ public class DoktorlarSayfasi extends javax.swing.JFrame {
             }
         });
 
+        btn_guncelle.setBackground(java.awt.Color.cyan);
         btn_guncelle.setText("Guncelle");
         btn_guncelle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

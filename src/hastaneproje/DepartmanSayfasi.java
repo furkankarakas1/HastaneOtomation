@@ -45,7 +45,9 @@ public class DepartmanSayfasi extends javax.swing.JFrame {
         btn_guncelle = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(java.awt.Color.cyan);
 
+        DepartmanGoruntule.setBackground(java.awt.Color.cyan);
         DepartmanGoruntule.setText("Departman goruntule");
         DepartmanGoruntule.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -53,6 +55,7 @@ public class DepartmanSayfasi extends javax.swing.JFrame {
             }
         });
 
+        DepartEkle.setBackground(java.awt.Color.cyan);
         DepartEkle.setText("Departman Ekle");
         DepartEkle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -70,6 +73,7 @@ public class DepartmanSayfasi extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tbl_depart);
 
+        btn_sil.setBackground(java.awt.Color.cyan);
         btn_sil.setText("Sil");
         btn_sil.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,6 +81,7 @@ public class DepartmanSayfasi extends javax.swing.JFrame {
             }
         });
 
+        btn_guncelle.setBackground(java.awt.Color.cyan);
         btn_guncelle.setText("Güncelle");
         btn_guncelle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

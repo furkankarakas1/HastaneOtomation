@@ -46,6 +46,7 @@ public class HastaSonucSayfasi extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        SonucOgren.setBackground(java.awt.Color.cyan);
         SonucOgren.setText("Sonuc Ogren");
         SonucOgren.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -63,6 +64,7 @@ public class HastaSonucSayfasi extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tbl_hasta);
 
+        btn_sncAdd.setBackground(java.awt.Color.cyan);
         btn_sncAdd.setText("Sonuc Ekle");
         btn_sncAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -70,6 +72,7 @@ public class HastaSonucSayfasi extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setBackground(java.awt.Color.cyan);
         jButton1.setText("Guncelle");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,6 +80,7 @@ public class HastaSonucSayfasi extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(java.awt.Color.cyan);
         jButton2.setText("Sil");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
